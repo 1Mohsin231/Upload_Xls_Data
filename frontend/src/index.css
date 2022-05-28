@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open-Sans',sans-serif;
+  color: #343a4a;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 80px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2{
+  color: blue;
+  padding: 30px;
+  text-align: center;
+}
+.input{
+  border: 1px solid blue;
+  padding: 50px 100px 50px 250px;
+  border-radius: 5px;
+}
+.btn01{
+  margin-left: 45%;
+  
+}
+.reportPage h1{
+text-align: center;
+margin-top: 25px;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  margin:0px 30px 30px 30px ;
+}
+.card div{
+  border: 2px solid black;
+  
+  padding: 30PX;
+  margin: 15PX;
+}
+.card div h5{
+  border-bottom: 1px solid rgb(47, 44, 44);
+}
+.card1{
+  background-color: rgb(148, 214, 227);
+}
+.card2{
+  background-color: rgb(119, 179, 159);
+}
+.card3{
+  background-color: rgb(201, 150, 144);
+}
