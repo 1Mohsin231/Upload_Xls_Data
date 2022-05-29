@@ -10,7 +10,7 @@ exports.stdinsert =  (req, res) => {
             section: req.body[i].section,
             
             age: req.body[i].age,
-            attendance: req.body[i].attendance,
+            attendance: req.body[i].attendance==1 ?  true : false
         })
 
         stu.save()
@@ -38,7 +38,7 @@ exports.getstudents =  (req, res) => {
     std.find()
     .then(response =>{
         res.json({
-            response
+            data:response
         })
     })
     .catch(error =>{
@@ -46,5 +46,5 @@ exports.getstudents =  (req, res) => {
             message: "an error occured"
         })
     })
-    // https://github.com/Rahulesakk  repo link
+    
 }
